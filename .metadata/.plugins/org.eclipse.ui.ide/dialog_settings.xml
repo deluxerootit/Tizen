@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="org.eclipse.cdt.gdb:9.3.2.201709131603"/>
+		<item value="org.eclipse.cdt:9.3.2.201709131603"/>
+		<item value="org.eclipse.emf.common:2.13.0.v20170609-0707"/>
+		<item value="org.eclipse.emf.ecore:2.13.0.v20170609-0707"/>
+		<item value="org.eclipse.help:2.2.101.v20171009-0410"/>
+		<item value="org.eclipse.platform:4.7.1.v20171009-0410"/>
+		<item value="org.eclipse.rcp:4.7.1.v20171009-0410"/>
+		<item value="org.tizen.common.feature:2.0.0.202012030914"/>
+		<item value="org.tizen.dynamicanalysis.ide.eplugin.feature:2.1.0.201910211207"/>
+		<item value="org.tizen.dynamicanalysis.ide.web.eplugin.feature:2.1.0.201910160605"/>
+		<item value="org.tizen.efluibuilder.feature:1.0.0.201811300141"/>
+		<item value="org.tizen.nativeappcommon.feature:2.0.0.201811300132"/>
+		<item value="org.tizen.nativecommon.feature:2.0.0.202109201324"/>
+		<item value="org.tizen.ocf.bridge.feature:2.0.0.201906141449"/>
+		<item value="org.tizen.ocf.cert.feature:2.0.0.202004300845"/>
+		<item value="org.tizen.ocf.core.feature:2.0.0.202004300759"/>
+		<item value="org.tizen.ocf.ext.feature:2.0.0.202004300815"/>
+		<item value="org.tizen.profiler.feature:1.0.0.202009290954"/>
+		<item value="org.tizen.unittest.feature:2.0.0.202009090428"/>
+	</list>
+	<section name="SaveAsDialogSettings">
+		<item value="613" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="616" key="DIALOG_HEIGHT"/>
+		<item value="618" key="DIALOG_X_ORIGIN"/>
+		<item value="176" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
