@@ -4766,3 +4766,40 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -Dorg.eclipse.swt.browse
 
 !ENTRY org.eclipse.launchbar.core 2 0 2022-02-05 10:40:01.276
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.tizen.web.zimlaunch 4 0 2022-02-05 11:38:57.345
+!MESSAGE Error in Config File
+!STACK 0
+org.tizen.web.zimlaunch.exception.TizenWebIDEException: Error in Config File
+	at org.tizen.web.zimlaunch.deployer.ZimLaunchDelegate.launch(ZimLaunchDelegate.java:281)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.tizen.web.zimlaunch 4 0 2022-02-05 11:46:23.517
+!MESSAGE Error in Config File
+!STACK 0
+org.tizen.web.zimlaunch.exception.TizenWebIDEException: Error in Config File
+	at org.tizen.web.zimlaunch.deployer.ZimLaunchDelegate.launch(ZimLaunchDelegate.java:281)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.tizen.web.zimlaunch 4 0 2022-02-05 11:47:46.364
+!MESSAGE Error in Config File
+!STACK 0
+org.tizen.web.zimlaunch.exception.TizenWebIDEException: Error in Config File
+	at org.tizen.web.zimlaunch.deployer.ZimLaunchDelegate.launch(ZimLaunchDelegate.java:281)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.tizen.common.connection.toolbar.EmulatorLaunchWorker 4 0 2022-02-05 15:27:48.057
+!MESSAGE [2022.02.05 15:27:48][ERROR] EmulatorLaunchWorker.java(93) - Emulator has been booted up: W-5.5-circle-x86
+

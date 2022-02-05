@@ -19,6 +19,8 @@ window.onload = function () {
     });
     
 };
+
+
 function requestPermit(uri) {
 	  return new Promise(function(resolve, reject) {
 	    tizen.ppm.requestPermission(uri,
@@ -28,15 +30,14 @@ function requestPermit(uri) {
 	}
 
 function main() {
-	  return requestPermit('http://tizen.org/privilege/healthinfo')
-	    .then(function() { return requestPermit('http://developer.samsung.com/privilege/healthinfo'); })
-	    .then(function() { return requestPermit('http://developer.samsung.com/privilege/medicalinfo'); })
+	  return permitRequester('http://tizen.org/privilege/healthinfo')
+	    .then(function() { return permitRequester('http://developer.samsung.com/privilege/healthinfo'); })
+	    .then(function() { return permitRequester('http://developer.samsung.com/privilege/medicalinfo'); })
 	    .then(function() { return displayHeartRate(); })
 	    .catch(function(err) { return console.log(err); });
 	}
 
-window.onload = main();
-	
+
 function writeToFile(hrmInfo){
     var HRMdata,HRMInterval;	
    
@@ -65,7 +66,7 @@ function writeToFile(hrmInfo){
             console.log("Data from File:",read);  //output to console
 		                        	
             fs.close();
-        }
+       }
     });
 }
 
