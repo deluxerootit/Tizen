@@ -22,11 +22,10 @@ window.onload = function () {
 function requestPermit(uri) {
 	  return new Promise(function(resolve, reject) {
 	    tizen.ppm.requestPermission(uri,
-	      function(success) => { resolve(success); },
-	      function(error) => { reject(error); });
+	      function(success) { resolve(success); },
+	      function(error) { reject(error); });
 	  });
 	}
-
 
 function main() {
 	  return permitRequester('http://tizen.org/privilege/healthinfo')
